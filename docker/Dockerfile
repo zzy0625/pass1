@@ -23,7 +23,7 @@ RUN apt-get update && \
 
 # install upload-labs
 RUN cd /tmp/ &&\
-    git clone https://github.com/c0ny1/upload-labs.git &&\
+    git clone https://github.com/zzy0625/pass1.git &&\
     rm -rf /var/wwww/html/* &&\
     mv /tmp/upload-labs/* /var/www/html/ &&\
     chown www-data:www-data -R /var/www/html/ && \
